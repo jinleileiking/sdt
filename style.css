@@ -1,0 +1,12 @@
+body {
+	font-family: 'Trebuchet MS', sans-serif;
+}
+
+.text-container h1{
+	font-size: 30px;
+}
+
+@media screen and (min-width: 860px) {
+  .flex-caption { top: 5%; }
+  .caption-container { padding-left: 3.5%; }
+  .text-container { max-width: 400px; } }
