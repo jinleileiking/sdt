@@ -14,7 +14,7 @@ Dir['images/**/*'].each do |file|
 
 #     puts "#{file}"
 #     puts "#{filename}"
-    system "convert #{filename}.#{ext} -resize 1080x1080 #{filename}.#{ext}"
+    system "convert #{filename}.#{ext} -resize x717 #{filename}.#{ext}"
 
 end
 
